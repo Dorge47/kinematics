@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/javascript" src="application.js"></script>
+    <title>Kinematic Equation Solver</title>
+</head>
+
+<body>
+<label for="displacement">Displacement from initial position to final position</label>
+<p><input type="number" id="disp" name="displacement"> meters</p>
+<br>
+<label for="initial">Initial velocity</label>
+<p><input type="number" id="iv" name="initial"> meters per second</p>
+<br>
+<label for="final">Final velocity</label>
+<p><input type="number" id="fv" name="final"> meters per second</p>
+<br>
+<label for="acceleration">Acceleration</label>
+<p><input type="number" id="acc" name="acceleration"> meters per second per second</p>
+<br>
+<label for="time">Time</label>
+<p><input type="number" id="time" name="time"> seconds</p>
+<br>
+<button onclick="kinematic();">Find unknowns</button>
+<br>
+</body>
+
+</html>
